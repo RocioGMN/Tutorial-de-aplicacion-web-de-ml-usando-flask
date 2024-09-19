@@ -8,7 +8,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Cargar el modelo desde la ruta especificada
-MODEL_PATH = r'G:\Mi unidad\Data Science\Practicas\Tutorial-de-aplicacion-web-de-ml-usando-flask\models\best_model.pkl'
+MODEL_PATH = r'G:\Mi unidad\Data Science\Practicas\Proyecto App web flask y Render\Tutorial-de-aplicacion-web-de-ml-usando-flask\models\best_model.pkl'
 best_model = joblib.load(MODEL_PATH)
 
 # Ruta para renderizar el formulario
