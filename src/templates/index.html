@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos</title>
+</head>
+<body>
+    <h2>Formulario de Datos del Estudiante</h2>
+    <form action="/predict" method="POST">
+        <label for="maritalStatus">Estado Civil:</label><br>
+        <input type="text" id="maritalStatus" name="maritalStatus"><br><br>
+
+        <label for="applicationMode">Modo de Aplicación:</label><br>
+        <input type="text" id="applicationMode" name="applicationMode"><br><br>
+
+        <label for="applicationOrder">Orden de Aplicación:</label><br>
+        <input type="text" id="applicationOrder" name="applicationOrder"><br><br>
+
+        <label for="course">Curso:</label><br>
+        <input type="text" id="course" name="course"><br><br>
+
+        <label for="attendance">Horario (Diurno/Nocturno):</label><br>
+        <input type="text" id="attendance" name="attendance"><br><br>
+
+        <label for="previousQualification">Calificación Previa:</label><br>
+        <input type="text" id="previousQualification" name="previousQualification"><br><br>
+
+        <label for="nationality">Nacionalidad:</label><br>
+        <input type="text" id="nationality" name="nationality"><br><br>
+
+        <label for="motherQualification">Calificación de la Madre:</label><br>
+        <input type="text" id="motherQualification" name="motherQualification"><br><br>
+
+        <label for="fatherQualification">Calificación del Padre:</label><br>
+        <input type="text" id="fatherQualification" name="fatherQualification"><br><br>
+
+        <label for="motherOccupation">Ocupación de la Madre:</label><br>
+        <input type="text" id="motherOccupation" name="motherOccupation"><br><br>
+
+        <label for="fatherOccupation">Ocupación del Padre:</label><br>
+        <input type="text" id="fatherOccupation" name="fatherOccupation"><br><br>
+
+        <label for="displaced">Desplazado:</label><br>
+        <input type="text" id="displaced" name="displaced"><br><br>
+
+        <label for="educationalNeeds">Necesidades Educativas Especiales:</label><br>
+        <input type="text" id="educationalNeeds" name="educationalNeeds"><br><br>
+
+        <label for="debtor">Deudor:</label><br>
+        <input type="text" id="debtor" name="debtor"><br><br>
+
+        <label for="tuitionUpToDate">Matriculación al Día:</label><br>
+        <input type="text" id="tuitionUpToDate" name="tuitionUpToDate"><br><br>
+
+        <label for="gender">Género:</label><br>
+        <input type="text" id="gender" name="gender"><br><br>
+
+        <label for="scholarshipHolder">Becado:</label><br>
+        <input type="text" id="scholarshipHolder" name="scholarshipHolder"><br><br>
+
+        <label for="ageAtEnrollment">Edad al Inscribirse:</label><br>
+        <input type="number" id="ageAtEnrollment" name="ageAtEnrollment"><br><br>
+
+        <label for="international">Internacional:</label><br>
+        <input type="text" id="international" name="international"><br><br>
+
+        <h3>Unidades Curriculares 1er Semestre</h3>
+        <label for="units1stCredited">Unidades Acreditadas:</label><br>
+        <input type="number" id="units1stCredited" name="units1stCredited"><br><br>
+
+        <label for="units1stEnrolled">Unidades Inscritas:</label><br>
+        <input type="number" id="units1stEnrolled" name="units1stEnrolled"><br><br>
+
+        <label for="units1stEvaluations">Unidades Evaluadas:</label><br>
+        <input type="number" id="units1stEvaluations" name="units1stEvaluations"><br><br>
+
+        <label for="units1stApproved">Unidades Aprobadas:</label><br>
+        <input type="number" id="units1stApproved" name="units1stApproved"><br><br>
+
+        <label for="units1stGrade">Nota del Semestre:</label><br>
+        <input type="number" step="any" id="units1stGrade" name="units1stGrade"><br><br>
+
+        <label for="units1stWithoutEvaluations">Unidades sin Evaluación:</label><br>
+        <input type="number" id="units1stWithoutEvaluations" name="units1stWithoutEvaluations"><br><br>
+
+        <h3>Unidades Curriculares 2do Semestre</h3>
+        <label for="units2ndCredited">Unidades Acreditadas:</label><br>
+        <input type="number" id="units2ndCredited" name="units2ndCredited"><br><br>
+
+        <label for="units2ndEnrolled">Unidades Inscritas:</label><br>
+        <input type="number" id="units2ndEnrolled" name="units2ndEnrolled"><br><br>
+
+        <label for="units2ndEvaluations">Unidades Evaluadas:</label><br>
+        <input type="number" id="units2ndEvaluations" name="units2ndEvaluations"><br><br>
+
+        <label for="units2ndApproved">Unidades Aprobadas:</label><br>
+        <input type="number" id="units2ndApproved" name="units2ndApproved"><br><br>
+
+        <label for="units2ndGrade">Nota del Semestre:</label><br>
+        <input type="number" step="any" id="units2ndGrade" name="units2ndGrade"><br><br>
+
+        <label for="units2ndWithoutEvaluations">Unidades sin Evaluación:</label><br>
+        <input type="number" id="units2ndWithoutEvaluations" name="units2ndWithoutEvaluations"><br><br>
+
+        <h3>Factores Económicos</h3>
+        <label for="unemploymentRate">Tasa de Desempleo:</label><br>
+        <input type="number" step="any" id="unemploymentRate" name="unemploymentRate"><br><br>
+
+        <label for="inflationRate">Tasa de Inflación:</label><br>
+        <input type="number" step="any" id="inflationRate" name="inflationRate"><br><br>
+
+        <label for="gdp">PIB:</label><br>
+        <input type="number" step="any" id="gdp" name="gdp"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+
+
+
